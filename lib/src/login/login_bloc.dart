@@ -29,7 +29,7 @@ class LoginBloc extends BlocBase {
     }
   }
 
-  goToAnotherPage(BuildContext context) {
+  goToHomePage(BuildContext context) {
     if (_validate()) {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => HomePage()));
     }

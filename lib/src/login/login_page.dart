@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                       return RaisedButton(
                         color: snapshot.data,
                         child: Icon(Icons.arrow_forward),
-                        onPressed: () => _bloc.goToAnotherPage(context),
+                        onPressed: () => _bloc.goToHomePage(context),
                       );
                     }
                   ),
